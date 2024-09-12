@@ -1,4 +1,4 @@
-
+import selfiealu from "./images/selfiealu.jpg"
 
 export default function About() {
     return (
@@ -15,7 +15,7 @@ export default function About() {
                 aliquip ex ea commodo consequat.</p>
         </div>
 
-        <img className="about-me__img" src="images/selfiealu.jpg" alt="Mohamed selfie with grass in the background" />
+        <img className="about-me__img" src={selfiealu} alt="Mohamed selfie with grass in the background" />
     </section>
     )
 }
