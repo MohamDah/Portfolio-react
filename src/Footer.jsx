@@ -10,7 +10,7 @@ export default function Footer() {
                 </a>
             </li>
             <li className="social-list__item">
-                <a href="https://www.linkedin.com/in/mohamdd-dahab-037267246/" className="social-list__link">
+                <a href="https://www.linkedin.com/in/mohamed-dahab-037267246/" className="social-list__link">
                     <i className="fab fa-linkedin"></i>
                 </a>
             </li>
