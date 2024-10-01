@@ -1,24 +1,20 @@
 
 export default function Footer() {
     return (
-        <footer class="footer">
-        <a href="mailto:mohammedfaiseldhb@gmail.com" class="footer__link">mohammedfaiseldhb@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a href="#" class="social-list__link">
-                    <i class="fab fa-github"></i>
+        <footer className="footer">
+        <a href="mailto:mohammedfaiseldhb@gmail.com" className="footer__link">mohammedfaiseldhb@gmail.com</a>
+        <ul className="social-list">
+            <li className="social-list__item">
+                <a href="https://github.com/MohamDah" className="social-list__link">
+                    <i className="fab fa-github"></i>
                 </a>
             </li>
-            <li class="social-list__item">
-                <a href="#" class="social-list__link">
-                    <i class="fab fa-twitter"></i>
+            <li className="social-list__item">
+                <a href="#" className="social-list__link">
+                    <i className="fab fa-linkedin"></i>
                 </a>
             </li>
-            <li class="social-list__item">
-                <a href="#" class="social-list__link">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </li>
+
         </ul>
     </footer>
     )

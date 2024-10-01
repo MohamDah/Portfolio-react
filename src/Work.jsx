@@ -1,4 +1,7 @@
 import screen from "./images/screen.png"
+import calc from "./images/calculator.png"
+import tenzies from "./images/tenzies.png"
+import tba from "./images/tba.png"
 
 export default function Work() {
     return (
@@ -8,54 +11,21 @@ export default function Work() {
 
         <div className="portfolio">
             
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
+            <a href="https://mohamdah-calculator.netlify.app/" className="portfolio__item">
+                <img src={calc} alt="calculator app" className="portfolio__img" />
             </a>
 
             
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
+            <a href="https://mohamdah-tenzies.netlify.app/" className="portfolio__item">
+                <img src={tenzies} alt="" className="portfolio__img" />
             </a>
 
             
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
+            <a href="https://github.com/me50/MohamDah" className="portfolio__item">
+                <img src={tba} alt="" className="portfolio__img" />
             </a>
 
             
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
-
-            
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
-
-            
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
-
-            
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
-
-            
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
-
-            
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
-
-            
-            <a href="portfolio-item.html" className="portfolio__item">
-                <img src={screen} alt="" className="portfolio__img" />
-            </a>
 
         </div>
     </section>
