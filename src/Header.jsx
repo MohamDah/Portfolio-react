@@ -1,6 +1,5 @@
 import logo from "./images/logo.png"
 import React from "react"
-import { Link, useParams } from "react-router-dom";
 
 export default function Header() {
     const [navOpen, setNavOpen] = React.useState(false);
@@ -9,16 +8,11 @@ export default function Header() {
         setNavOpen(prev => !prev)
     }
 
-    console.log(useParams());
-    
-
     return (
         <header className={navOpen ? "nav-open" : ""}>
-            <Link to="/">
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
-            </Link>
             <button onClick={toggleNav} className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>

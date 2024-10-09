@@ -1,5 +1,6 @@
 import calc from "./images/calculator.png"
 import tenzies from "./images/tenzies.png"
+import vans from "./images/vans.png"
 
 const projects = [
     { 
@@ -17,26 +18,13 @@ const projects = [
         description: ""
     },
     {
-        id: 2,
-        name: "Tenzies", 
-        image: tenzies,
-        url: "https://mohamdah-tenzies.netlify.app/",
+        id: 3,
+        name: "VansLife", 
+        image: vans,
+        url: "https://mohamdah-vanlife.netlify.app/",
         description: ""
     },
-    {
-        id: 2,
-        name: "Tenzies", 
-        image: tenzies,
-        url: "https://mohamdah-tenzies.netlify.app/",
-        description: ""
-    },
-    {
-        id: 2,
-        name: "Tenzies", 
-        image: tenzies,
-        url: "https://mohamdah-tenzies.netlify.app/",
-        description: ""
-    }
+
 ]
 
 export default projects

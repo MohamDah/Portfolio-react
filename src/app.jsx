@@ -1,20 +1,19 @@
-import Layout from "./layouts/Layout"
-import HomePage from "./HomePage"
-import ProjectPage from "./ProjectPage"
-
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
-
-const router = createBrowserRouter(createRoutesFromElements(
-        <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="/:id" element={<ProjectPage />} />
-        </Route>
-))
+import Header from "./Header"
+import Intro from "./Intro"
+import Services from "./Services"
+import About from "./About"
+import Work from "./Work"
+import Footer from "./Footer"
 
 export default function App() {
     return (
         <div className="container">
-            <RouterProvider router={router} />
+            <Header />
+            <Intro />
+            <Services />
+            <About />
+            <Work />
+            <Footer />
         </div>
     )
 }

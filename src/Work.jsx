@@ -3,13 +3,12 @@ import calc from "./images/calculator.png"
 import tenzies from "./images/tenzies.png"
 import tba from "./images/tba.png"
 import projects from "./projects"
-import { Link } from "react-router-dom"
 
 export default function Work() {
     const workEls = projects.map(project => (
-        <Link key={project.id} to={`/${project.id}`} className="portfolio__item">
+        <a key={project.id} href={project.url} className="portfolio__item">
                 <img src={project.image} alt={project.name} className="portfolio__img" />
-        </Link>
+        </a>
     ))
     return (
         <section className="my-work" id="work">

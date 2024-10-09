@@ -40,7 +40,7 @@
   --fw-bold: 900;
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #2cb0ec;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
@@ -413,24 +413,18 @@ header {
 
 .portfolio {
   display: grid;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
-  border-radius: 5px;
-
 }
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   object-fit: cover;
   height: 100%;
-
 }
 
 .portfolio__item:focus {
