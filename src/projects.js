@@ -1,6 +1,7 @@
 import calc from "./images/calculator.png"
 import tenzies from "./images/tenzies.png"
 import vans from "./images/vans.png"
+import rockPaperScissors from "./images/rock-paper-scissors.png"
 
 const projects = [
     { 
@@ -22,6 +23,13 @@ const projects = [
         name: "VansLife", 
         image: vans,
         url: "https://mohamdah-vanlife.netlify.app/",
+        description: ""
+    },
+    {
+        id: 4,
+        name: "Rock Paper Scissors", 
+        image: rockPaperScissors,
+        url: "https://mohamdah-rock-paper-scissors.netlify.app/",
         description: ""
     },
 
