@@ -426,6 +426,7 @@ header {
   background: var(--clr-dark);
   overflow: hidden;
   position: relative;
+  aspect-ratio: 5/3;
 }
 
 .portfolio__img {
