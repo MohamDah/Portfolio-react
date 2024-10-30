@@ -2,6 +2,7 @@ import calc from "./images/calculator.png"
 import tenzies from "./images/tenzies.png"
 import vans from "./images/vans.png"
 import rockPaperScissors from "./images/rock-paper-scissors.png"
+import countries from "./images/countries.png"
 
 const projects = [
     { 
@@ -30,6 +31,13 @@ const projects = [
         name: "Rock Paper Scissors", 
         image: rockPaperScissors,
         url: "https://mohamdah-rock-paper-scissors.netlify.app/",
+        description: ""
+    },
+    {
+        id: 5,
+        name: "REST Countries", 
+        image: countries,
+        url: "https://mohamdah-countries.netlify.app/",
         description: ""
     },
 
