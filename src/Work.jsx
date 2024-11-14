@@ -23,6 +23,3 @@ export default function Work() {
         </section>
     )
 }
-                // <a href="https://github.com/me50/MohamDah" className="portfolio__item">
-                //     <img src={tba} alt="" className="portfolio__img" />
-                // </a>
