@@ -9,7 +9,7 @@ import commentSection from "./images/commentSection.png"
 const projects = [
     {
         id: 7,
-        name: "Interactive Comment Section", 
+        name: "Comment Section", 
         image: commentSection,
         url: "https://mohamdah-interactive-comment-section.netlify.app/",
         description: ""
