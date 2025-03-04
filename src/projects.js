@@ -5,8 +5,16 @@ import rockPaperScissors from "./images/rock-paper-scissors.png"
 import countries from "./images/countries.png"
 import form from "./images/form.png"
 import commentSection from "./images/commentSection.png"
+import qrswiftq from "./images/qrswiftq.png"
 
 const projects = [
+    {
+        id: 8,
+        name: "SwiftQ - Queue App", 
+        image: qrswiftq,
+        url: "https://mohamdah-swiftq.netlify.app/",
+        description: ""
+    },
     {
         id: 7,
         name: "Comment Section", 
