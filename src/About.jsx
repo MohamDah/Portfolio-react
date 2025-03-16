@@ -5,7 +5,9 @@ export default function About() {
         <section className="about-me" id="about">
             <h2 className="section__title section__title--about">Who I am</h2>
             <p className="section__subtitle section__subtitle--about">Web Developer based in Kigali</p>
-            <p className="section__subtitle--desc">Hello. My name is Mohamed, and I'm from Sudan. I've been passionate about programming since before high school. After completing online courses (CS50, CS50w) and starting a CS degree in Sudan, my studies were interrupted by the 2023 war. Following a long displacement, I was accepted into ALU's May 2024 intake. Now in Kigali, I'm focused on honing my frontend skills to complement my previous backend experience with Django. I'm committed to continuous learning and improvement.</p>
+            <p className="section__subtitle--desc">
+                Hello, my name is Mohamed, and I'm from Sudan. My passion for programming began before high school. After completing online courses (CS50, CS50w) and starting a CS degree in Sudan, my studies were interrupted by the 2023 war. Despite the challenges, I was accepted into ALU's May 2024 intake. Now in Kigali, I'm dedicated to enhancing my skills in frontend development, with a focus on React and Tailwind CSS. I'm committed to continuous learning and always eager to take on new challenges.
+            </p>
             <div className="about-me__body">
             </div>
 

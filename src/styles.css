@@ -437,9 +437,13 @@ header {
     margin-right: auto;
   }
 
-  .service+.service {
-    margin-left: 2em;
+  .services > * {
+    flex: 1;
   }
+
+  /* .service+.service {
+    margin-left: 2em;
+  } */
 }
 
 /* about me */
