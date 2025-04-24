@@ -29,15 +29,19 @@ export default function Header() {
 
     return (
         <header className={navOpen ? "nav-open" : ""}>
-                <div className="logo">
-                    <img src={logo} alt="logo" />
-                </div>
+            <div className="logo">
+                <img src={logo} alt="logo" />
+            </div>
+
+            <a href="https://drive.google.com/file/d/1CJwti-UcYvtXzFeA-98j1a7dBidLrkAF/view?usp=sharing" className="resume-link" target="_blank" rel="noopener noreferrer">
+                <i className="fa-solid fa-file-pdf"></i> Resume
+            </a>
 
             <button onClick={toggleTheme} className="toggleTheme">
                 {
                     theme === "light"
-                    ? <i className="fa-regular fa-moon"></i>
-                    : <i className="fa-solid fa-moon"></i>
+                        ? <i className="fa-regular fa-moon"></i>
+                        : <i className="fa-solid fa-moon"></i>
                 }
             </button>
 
