@@ -6,8 +6,16 @@ import countries from "./images/countries.png"
 import form from "./images/form.png"
 import commentSection from "./images/commentSection.png"
 import qrswiftq from "./images/qrswiftq.png"
+import swiftqv2 from "./images/swiftqv2.png"
 
 const projects = [
+    {
+        id: 9,
+        name: "SwiftQ V2 - Queue App", 
+        image: swiftqv2,
+        url: "https://swiftq-v2.netlify.app/",
+        description: ""
+    },
     {
         id: 8,
         name: "SwiftQ - Queue App", 
