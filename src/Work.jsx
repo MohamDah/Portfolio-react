@@ -2,7 +2,7 @@ import projects from "./projects"
 
 export default function Work() {
     const workEls = projects.map(project => (
-        <a key={project.id} href={project.url} className="portfolio__item">
+        <a key={project.id} href={project.url} className="portfolio__item" target="_blank">
                 <p className="portfolio__name">{project.name}</p>
                 <img src={project.image} alt={project.name} className="portfolio__img" />
         </a>
